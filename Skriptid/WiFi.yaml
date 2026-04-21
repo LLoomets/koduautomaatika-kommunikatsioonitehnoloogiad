@@ -1,0 +1,26 @@
+sequence:
+  - repeat:
+      count: 50
+      sequence:
+        - action: switch.turn_on
+          metadata: {}
+          target:
+            device_id: 05faf10c93c287d8c55cc33ba21f9719
+          data: {}
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 10
+            milliseconds: 0
+        - action: switch.turn_off
+          metadata: {}
+          target:
+            device_id: 05faf10c93c287d8c55cc33ba21f9719
+          data: {}
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 10
+            milliseconds: 0
+alias: Wifi sisse/välja
+description: ""

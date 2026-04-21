@@ -1,0 +1,26 @@
+sequence:
+  - repeat:
+      count: 50
+      sequence:
+        - action: switch.turn_on
+          metadata: {}
+          target:
+            device_id: 71d8d38265137e726a921fd98b0d59bf
+          data: {}
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 10
+            milliseconds: 0
+        - action: switch.turn_off
+          metadata: {}
+          target:
+            device_id: 71d8d38265137e726a921fd98b0d59bf
+          data: {}
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 10
+            milliseconds: 0
+alias: Z-wave sisse/välja
+description: ""
